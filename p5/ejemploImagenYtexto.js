@@ -3,7 +3,7 @@ let texto=[];
 let click=0;
 function preload() {
   for (let i=0; i<4; i++) {
-    imagenes[i]=loadImage('data/file'+i+'.WEBP');
+    imagenes[i]=loadImage('data/file'+i+'.webp');
   }
 }
 function setup() {
@@ -31,5 +31,6 @@ function mousePressed() {
     click=0;
   }
 }
+
 
 
